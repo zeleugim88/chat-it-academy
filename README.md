@@ -28,7 +28,8 @@ _Public folder contains: _
 1) Some style assets like CSS, images... 
 2) 3 HTML files (homepage for signup / login, menu page and chat page). 
 3) 3 Javascript files (one for each HTML file) that contains the buttons, event-handlers, html-elements definition and cleaning of session storage.
-4) 2 helpers javascript files (users and rooms) for the FETCH functions that manage the requests and the responses with the server. 
+4) 2 helper javascript files (users and rooms) for the FETCH functions that manage the requests and the responses with the server. 
+ 
  ⚠️ FRONT IS NOT RESPONSIVE, SO THE CHAT CAN ONLY BE USED IN COMPUTER WITH FULL SCREEN ⚠️
  
  ![Demo](https://raw.githubusercontent.com/zeleugim88/chat-it-academy/main/img/6.png)
