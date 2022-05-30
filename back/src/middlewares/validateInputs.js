@@ -1,5 +1,7 @@
 const { validationResult } = require('express-validator');
 
+//MIDDLEWARE to be used in endpoints 
+// 1.POST SIGNUP // 2.POST LOGIN
 
 const validateInputs = (req, res, next ) => {
     //Express validator returns the errors from the request

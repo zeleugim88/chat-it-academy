@@ -1,5 +1,9 @@
 const Message = require('../models/message.js');
 
+//HELPER TO BE USED WHEN 
+//HAL9000Msg => user enters o leaves the room
+//userMsg => user writes in chat
+
 const HAL9000Msg = (text)=>{
     return {
         text,

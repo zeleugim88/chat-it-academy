@@ -1,4 +1,4 @@
-const { Server } = require("socket.io");//en index.js
+const { Server } = require("socket.io");
 
 const Message = require("../models/message.js");
 const User = require('../models/user.js');
@@ -15,7 +15,7 @@ const startSockets = (httpServer) => {
     })
     io.on("connection", (socket) => {
 
-        console.log(`SOCKET ${socket.id}HANDSHAKE SUCCESSFUL`);
+        console.log(`SOCKET HANDSHAKE SUCCESSFUL`);
       
         socket.on('join', async (data) => {
             try{
@@ -74,7 +74,7 @@ const startSockets = (httpServer) => {
                 const room = disconnectedUser.room;
                 console.log(`Connection lost with ${disconnectedUser.name}.`);
 
-                //Delete socket and room when user is leaving room
+                //Delete user socket and user room when user is leaving room
                 disconnectedUser.socket = '';
                 disconnectedUser.room = '';
                 await disconnectedUser.save();

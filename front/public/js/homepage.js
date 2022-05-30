@@ -4,12 +4,12 @@ import {
     postNewUser,
     loginNewUser } from './helpers/fetchUsers.js';
 
-//Sign Up
+//Sign Up - Declare HTML elementes as variables
 const $signForm = document.querySelector('#sign-form');
 const $signFormInput = $signForm.querySelector('input');
 const signUpButton = document.getElementById('signup');
 
-//Log In
+//Log In - //Declare HTML elementes as variables
 const $logForm = document.querySelector('#log-form');
 const $logFormInput = $logForm.querySelector('input');
 const loginButton = document.getElementById('login');

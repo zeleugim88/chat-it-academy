@@ -1,5 +1,7 @@
 const URL = 'http://localhost:3000';
 var userData = JSON.parse(window.sessionStorage.getItem('user_data'));
+
+//Declare html variables
 const miniFooterLeft = document.querySelector('.mini-footer-left')
 const roomSidebar = document.querySelector('.buttons_box');
 const newRoomButton = document.getElementById('newRoom');
