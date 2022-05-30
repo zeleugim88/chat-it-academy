@@ -4,10 +4,15 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 html {
   font-size: 16px;
+}
+
+a {
+  color: #333;
 }
 
 input {
@@ -22,6 +27,15 @@ body {
 
 h1{
   margin-bottom: 16px;
+  color: #333;
+}
+
+h2{
+  color:white;
+}
+
+p{
+  color: white;
 }
 
 label {
@@ -48,12 +62,12 @@ button {
 }
 
 button:hover {
-  background:#6b47b8;
+  background:#FFC15E;
 }
 
 button:disabled {
   cursor: default;
-  background: #7c5cbf94;
+  background: #FFC15E;
 }
 
 /* Join Page Styles */
@@ -179,6 +193,10 @@ button:disabled {
   font-weight: 600;
   font-size: 14px;
   margin-right: 8px;
+}
+
+.welcome {
+  text-align: center;
 }
 
 .message__meta {

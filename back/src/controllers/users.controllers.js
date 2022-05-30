@@ -31,6 +31,14 @@ try{
     const { name, password } = req.body
     const user = await User.findUser(name, password);
     token = user.token;
+    console.log(user.socket)
+    console.log(user)
+    if(user.socket) {
+        return res.status(400).json({
+            ok: false,
+            msg: 'User already logged in'
+        })
+    }
     res.status(200).json({user, token});
 }catch(e){
     res.status(400).json({errors: e.message});
