@@ -6,10 +6,10 @@
 - [MongoDB](https://docs.mongodb.com/manual/installation/) => Start the server before running the commands
 
 ## Install dependencies 🔧
-_Execute "npm install" both in client (front) and server (back)
+_Execute "npm install" both in client (front) and server (back)_
 
 ## Environment variables .env 🪛
-_Create a file called .env by using the template .env copy both in client (front) and server (back)
+_Create a file called .env by using the template .env copy both in client (front) and server (back)_
 
 ## Launch chat ⌨️
-_Execute "npm start" both in client (front) and server (back)
+_Execute "npm start" both in client (front) and server (back)_
